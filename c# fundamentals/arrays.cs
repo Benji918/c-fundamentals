@@ -19,4 +19,10 @@ foreach (int i in myintarray)
 
 Console.WriteLine("Array length " + strarr.Length);
 
+int[,] int2Darrayinitialized = new int[3, 3];
+int[,,] int3Darrayinitialized = new int[3, 3, 3];
+
+int[,] int2Darrayideclaration = { {1,2}, {3,4} };
+Console.WriteLine(int2Darrayideclaration[1,0]);
+
 Console.ReadKey();
